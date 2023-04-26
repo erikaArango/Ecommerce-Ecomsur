@@ -2,7 +2,7 @@ import { useDispatch } from "react-redux";
 import {  useGetAllProductsQuery } from "../slices/productsApi";
 import { addToCart } from "../slices/cartSlice";
 
-const HomePage = () => {
+const ProductListPage = () => {
      const {data, error, isLoading} = useGetAllProductsQuery();
      const dispatch = useDispatch();
 
@@ -38,4 +38,4 @@ const HomePage = () => {
             );
 };
 
-export default HomePage
+export default ProductListPage

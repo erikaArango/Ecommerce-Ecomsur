@@ -46,7 +46,7 @@
   margin-left: 5px;
 }
 
-/* HomePage */
+/* ProductListPage*/
 
 .home-container {
   padding: 2rem 4rem;
@@ -109,7 +109,7 @@
   cursor: pointer;
 }
 
-/* Cart */
+/* CartPage */
 .cart-container {
   padding: 2rem 4rem;
 }
@@ -276,7 +276,7 @@
     font-size: 30px;
   }
 
-  /* Cart */
+  /* CartPage */
   .cart-container {
     padding: 2rem;
   }
