@@ -3,7 +3,9 @@
 This is a shopping cart project that uses a local API to get and update information about products. Application state is handled with React Toolkit, API calls are made with Axios, RTK Query, for handling Asynchronous Async Thunk actions, React Toastify is also used to display success or error messages to the user. Styling is done with CSS.
 
 
-![onlineStore]()
+![onlineStore](https://github.com/erikaArango/Online-Store/blob/main/front/src/images/img1.jpeg)
+
+![onlineStore](https://github.com/erikaArango/Online-Store/blob/main/front/src/images/img2.jpeg)
 
 
 ### Specifications
