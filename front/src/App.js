@@ -1,9 +1,11 @@
-import React, { useEffect, useState } from "react";
+//import React, { useEffect, useState } from "react";
+import "react-toastify/dist/ReactToastify.css";
 import {
   BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
+import {ToastContainer} from "react-toastify"
 import NavBar  from "./components/NavBar.jsx";
 import HomePage from "./components/HomePage.jsx";
 
@@ -24,15 +26,13 @@ const App = () => {
 
   return (
     <Router>
-      <div>
-        <div>
+     <ToastContainer/>  
           <NavBar/>
-        </div>
         <Routes>
           <Route path='/' element={<HomePage/>} />
         </Routes>
-      </div>
     </Router>
+   
   );
 };
 
