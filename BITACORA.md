@@ -16,7 +16,7 @@ npm (v7 o superior)
 
 1. Clone the repository from GitHub:
 
-[repo](https://github.com/erikaArango/Ecommerce-Ecomsur)
+[https://github.com/erikaArango/Ecommerce-Ecomsur](https://github.com/erikaArango/Ecommerce-Ecomsur)
 
 2. Go to the project directory:
 
@@ -32,7 +32,7 @@ npm (v7 o superior)
 
 `npm run dev`
 
-2. Open your web browser and go to [local](http://localhost:3000)
+2. Open your web browser and go to [http://localhost:3000](http://localhost:3000)
 
 
 
