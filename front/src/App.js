@@ -4,8 +4,8 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import NavBar  from "./components/Navbar/NavBar.jsx";
-import HomePage from "./pages/HomePage.jsx";
+import NavBar  from "./components/NavBar.jsx";
+import HomePage from "./components/HomePage.jsx";
 
 const App = () => {
  
