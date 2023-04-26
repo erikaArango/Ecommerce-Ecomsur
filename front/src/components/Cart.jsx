@@ -61,14 +61,12 @@ const Cart = () => {
                     <h3 className="total">Total</h3>
                 </div>
                 <div className="cart-items">
-                    {cart.cartItems &&
-                        cart.cartItems.map((cartItem) => (
-                        <div className="cart-item" key={cartItem.id}>
+                    {cart.cartItems.map((cartItem) => (
+                        <div className="cart-item" key={cartItem._id}>
                             <div className="cart-product">
                                 <img src={`http://localhost:5000/${cartItem.image}`} alt={cartItem.name} />
                                 <div>
                                     <h3>{cartItem.name}</h3>
-                                    <p>{cartItem.desc}</p>
                                     <button onClick={()=> handleRemoveFromCart(cartItem)}>
                                         Remove 
                                     </button>
