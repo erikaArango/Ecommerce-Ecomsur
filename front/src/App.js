@@ -9,17 +9,17 @@ import HomePage from "./pages/HomePage.jsx";
 
 const App = () => {
  
-  const [response, setResponse] = useState("");
+  //const [response, setResponse] = useState("");
 
   // call server to see if its running
-  useEffect(() => {
+/*   useEffect(() => {
     const getApiResponse = () => {
       fetch("http://localhost:5000/")
         .then((res) => res.text())
         .then((res) => setResponse(res));
     };
     getApiResponse();
-  }, []);
+  }, []); */
   // -------------------------------------------------
 
   return (
