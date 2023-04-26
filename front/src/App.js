@@ -8,6 +8,7 @@ import {
 import {ToastContainer} from "react-toastify"
 import NavBar  from "./components/NavBar.jsx";
 import ProductListPage from "./components/ProductListPage.jsx";
+import ProductDisplayPage from "./components/ProductDisplayPage.jsx";
 import CartPage from "./components/CartPage.jsx";
 
 const App = () => {
@@ -32,7 +33,7 @@ const App = () => {
         <Routes>
           <Route path='/' element={<ProductListPage/>} />
           <Route path='/cart' element={<CartPage/>} />
-
+          <Route path='/product/:id' element={<ProductDisplayPage/>} />
         </Routes>
     </Router>
    
