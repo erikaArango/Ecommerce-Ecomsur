@@ -8,6 +8,7 @@ import {
 import {ToastContainer} from "react-toastify"
 import NavBar  from "./components/NavBar.jsx";
 import HomePage from "./components/HomePage.jsx";
+import Cart from "./components/Cart.jsx";
 
 const App = () => {
  
@@ -30,6 +31,8 @@ const App = () => {
           <NavBar/>
         <Routes>
           <Route path='/' element={<HomePage/>} />
+          <Route path='/cart' element={<Cart/>} />
+
         </Routes>
     </Router>
    
